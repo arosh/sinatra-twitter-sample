@@ -9,6 +9,7 @@ Ruby製のWEBアプリケーションフレームワークSinatraを用いた、
 * app.rb の callback\_url を適切に設定する。
 * `gem install bundle`
 * `bundle install --path vendor/bundle`
+* `bundle exec rake db:migrate`
 * `bundle exec rackup`
 
 # 注意書き
