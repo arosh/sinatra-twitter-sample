@@ -7,3 +7,5 @@ gem 'sqlite3'
 
 gem 'oauth'
 gem 'twitter'
+
+gem 'erubis'

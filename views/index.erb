@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>ホーム画面</title>
+  </head>
+  <body>
+    <p><img src="<%= h(session[:user].twitter_profile_image_url) %>"><%= h(session[:user].twitter_screen_name) %>としてログインしています。 <a href="/logout">ログアウト</a></p>
+
+    <ul>
+      <% for tweet in @tweets %>
+        <% if tweet.user.protected? == false %>
+          <li><%= h(tweet.text) %></li>
+        <% end %>
+      <% end %>
+    </ul>
+  </body>
+</html>
