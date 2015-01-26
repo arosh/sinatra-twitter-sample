@@ -23,3 +23,8 @@ CONSUMER_SECRET = 'xxxxxxxx'
 
 また、callback\_urlはローカル開発環境で開発を行うことを前提に設定されています。
 
+# License
+
+This software is released under the MIT License.
+
+Copyright(c) 2012 Sho Iizuka
